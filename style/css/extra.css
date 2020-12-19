@@ -1,0 +1,57 @@
+/**
+ * @file extra.css
+ * @brief  mkdocs自定义部分样式
+ * @version 1.0
+ * @date 2019-05-16
+ * 
+ * @copyright Copyright (c) 2019 Chipintelli Technology Co., Ltd.
+ * 
+ */
+
+/* 页面宽度自动铺满 */
+.wy-nav-content {
+    /*max-width:1000px;*/
+    /*max-width: 100%;*/
+    /*max-width: 80%;*/
+    max-width:1200px;
+}
+
+/* 修复rtd-dropdown主题高亮bug */
+.hljs {
+    overflow-x: auto !important;
+    padding: 0.5em !important;
+    color: #333 !important;
+    background: #f8f8f8 !important;
+}
+
+code {
+    white-space: pre !important;
+    word-wrap: normal !important;
+    font-size: 14px !important;
+}
+
+div.col-md-9 h1:first-of-type {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+div.col-md-9>p:first-of-type {
+    text-align: center;
+}
+
+div.col-md-9 p.admonition-title:first-of-type {
+    text-align: left;
+}
+
+div.col-md-9 h1:first-of-type .headerlink {
+    display: none;
+}
+
+code.no-highlight {
+    color: black;
+}
+
+dd {
+    padding-left: 20px;
+}
